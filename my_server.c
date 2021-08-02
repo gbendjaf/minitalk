@@ -56,7 +56,7 @@ char	*ft_strjoin_custom(char *s1, char s2)
 	while (s1[++i])
 		tab[i] = s1[i];
 	len = -1;
-	while (++len < (int)1)
+	while (++len < 1)
 		tab[i + len] = s2;
 	tab[i + len] = 0;
 	return (tab);
